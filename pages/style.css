@@ -119,23 +119,26 @@
 }
 
 /* SECOND SECTION */
-.container3{
+.container3 {
     position: relative;
 }
-.container3 .wrapper_holder h1{
+
+.container3 .wrapper_holder h1 {
     text-decoration: underline;
     font-style: oblique;
     position: relative;
     left: 60%;
     top: -10%;
 }
+
 .container3 .wrapper_holder p {
     font-size: x-large;
     position: relative;
     left: 40%;
     /* top: 8%; */
 }
-section .wrapper{
+
+section .wrapper {
     width: 60vw;
     height: 75vh;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
@@ -144,13 +147,15 @@ section .wrapper{
     left: 20%;
     overflow: hidden;
 }
-.container3 .wrapper_holder{
+
+.container3 .wrapper_holder {
     display: grid;
     grid-template-columns: repeat(4, 100%);
     width: 100%;
     height: 100%;
     animation: slider 30s ease-in-out infinite alternate;
 }
+
 .container3 .wrapper_holder #slider1 {
     background-image: url(../asset/img/bf1.jpg);
     background-repeat: no-repeat;
@@ -158,7 +163,8 @@ section .wrapper{
     top: 25%;
     left: 20px;
 
- }
+}
+
 .container3 .wrapper_holder #slider2 {
     background-image: url(../asset/img/bf2.jpg);
     background-repeat: no-repeat;
@@ -166,7 +172,8 @@ section .wrapper{
     top: 25%;
     left: 20px;
 
- }
+}
+
 .container3 .wrapper_holder #slider3 {
     background-image: url(../asset/img/bf3.jpg);
     background-repeat: no-repeat;
@@ -175,6 +182,7 @@ section .wrapper{
     left: 20px;
 
 }
+
 .container3 .wrapper_holder #slider4 {
     background-image: url(../asset/img/bf4.jpg);
     background-repeat: no-repeat;
@@ -182,39 +190,75 @@ section .wrapper{
     top: 25%;
     left: 20px;
 
- }
-.container3 .button_holder .button{
+}
+
+.container3 .button_holder .button {
     background-color: white;
     width: 15px;
     height: 15px;
     border-radius: 15px;
     display: inline-block;
 }
-.container3 .button_holder{
-    
+
+.container3 .button_holder {
+
     position: absolute;
     left: 52%;
     /* bottom: 100px; */
     top: 520px;
 }
-.button:hover{
+
+.button:hover {
     box-shadow: 0px 0px 7px 4px rgba(31, 64, 83, 0.6);
 }
-@keyframes slider{
-    0%{ transform: translateX(0%);}
-    10%{ transform: translateX(-100%);}
-    20%{ transform: translateX(-100%);}
-    30%{ transform: translateX(-200%);}
-    40%{ transform: translateX(-200%);}
-    50%{ transform: translateX(-200%);}
-    60%{ transform: translateX(-300%);}
-    70%{ transform: translateX(-300%);}
-    80%{ transform: translateX(-300%);}
-    90%{ transform: translateX(0%);}
-    100%{ transform: translateX(0%);}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0%);
+    }
+
+    10% {
+        transform: translateX(-100%);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    30% {
+        transform: translateX(-200%);
+    }
+
+    40% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-300%);
+    }
+
+    70% {
+        transform: translateX(-300%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    90% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
-.container3 .box4 .btn{
+.container3 .box4 .btn {
     position: relative;
     top: -20px;
     left: 650px;
@@ -224,7 +268,7 @@ section .wrapper{
 /* -----------------  THIRD SECTION occation ------------------- */
 
 .occation {
-      background: linear-gradient(135deg, #c850c0, #4158d0);
+    background: linear-gradient(135deg, #c850c0, #4158d0);
     max-width: 100%;
     height: 650px;
 }
@@ -371,18 +415,19 @@ cite {
     margin-top: 10px;
 }
 
-.tst1{
+.tst1 {
     rotate: 2deg;
     padding-top: 10px;
 }
-.tst3{
+
+.tst3 {
     rotate: -2deg;
 }
 
 
 /* reservation and order */
 
-#book-table{
+#book-table {
     height: 650px;
     margin: 0;
     display: flex;
@@ -392,13 +437,15 @@ cite {
     font-family: Arial, sans-serif;
 }
 
-.heading{
-   position: relative;
-   top: -50px;
+.heading {
+    position: relative;
+    top: -50px;
 }
+
 /* box 3 */
 .box3 {
-    background-color: #d95d39; /* Background color similar to the image */
+    background-color: #d95d39;
+    /* Background color similar to the image */
     color: #fff;
     width: 400px;
     height: 400px;
@@ -438,18 +485,19 @@ cite {
     transition: background-color 0.3s ease;
 }
 
-.box3  button:hover {
+.box3 button:hover {
     background-color: #f7f7f7;
 }
-.ord{
+
+.ord {
     position: relative;
     top: 30px;
 }
 
-.col1{
+.col1 {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     color: #0c0b0b;
@@ -461,18 +509,20 @@ cite {
 
 }
 
-.reservation h4{
+.reservation h4 {
     padding-top: 20px;
     padding-left: 150px;
     font-size: larger;
 }
-.reservation select{
+
+.reservation select {
     height: 40px;
-	width: 40%;
-	font-size: 14px;
-	padding-left: 10px;
+    width: 40%;
+    font-size: 14px;
+    padding-left: 10px;
 }
-.s1{
+
+.s1 {
     position: relative;
     top: 40px;
     left: 10px;
@@ -484,7 +534,8 @@ cite {
     cursor: pointer;
 
 }
-.s2{
+
+.s2 {
     position: relative;
     left: 220px;
     background: rgba(255, 255, 255, 0.2);
@@ -493,9 +544,10 @@ cite {
     color: #0c0b0b;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
-fieldset .form-control{
+
+fieldset .form-control {
     width: 93%;
     background: rgba(255, 255, 255, 0.2);
     border: none;
@@ -505,17 +557,20 @@ fieldset .form-control{
     cursor: pointer;
 
 }
-.frm1{
+
+.frm1 {
     position: relative;
     top: 20px;
     left: 10px;
 }
-.frm2{
+
+.frm2 {
     position: relative;
     left: 10px;
     top: 30px;
 }
-.s3{
+
+.s3 {
     background: rgba(255, 255, 255, 0.2);
     border: none;
     padding: 0.5rem 1rem;
@@ -526,62 +581,63 @@ fieldset .form-control{
     top: 50px;
     left: 30%;
 }
-.col2{
+
+.col2 {
     width: 200px;
     position: relative;
     top: 80px;
     left: 25%;
 }
 
-fieldset{
+fieldset {
     border: none;
 }
 
 
 /* ----- footer ------ */
 
-footer{
+footer {
     width: 100%;
     padding: 30px 0 0 20px;
     background: #eeeeee;
 }
 
-footer .footer_main{
+footer .footer_main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-footer .footer_main .footer_tag{
+footer .footer_main .footer_tag {
     text-align: center;
 }
 
-footer .footer_main .footer_tag h2{
+footer .footer_main .footer_tag h2 {
     color: #000;
     margin-bottom: 25px;
     font-size: 30px;
 }
 
-footer .footer_main .footer_tag p{
+footer .footer_main .footer_tag p {
     margin: 10px 0;
 }
 
-footer .footer_main .footer_tag i{
+footer .footer_main .footer_tag i {
     margin: 0 5px;
     cursor: pointer;
 }
 
-footer .footer_main .footer_tag i:hover{
+footer .footer_main .footer_tag i:hover {
     color: #3d84a7;
 }
 
-footer .end{
+footer .end {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
 
-footer .end span{
+footer .end span {
     color: #3d84a7;
     margin-left: 10px;
 }
@@ -617,25 +673,26 @@ iframe {
     justify-content: center;
 }
 
-.message-form{
+.message-form {
     padding: 20px;
     width: 35%;
     /* border: 1px solid rgb(17, 24, 17); */
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     position: relative;
     right: 100px;
 }
+
 .contact-info {
     padding: 20px;
     width: 25%;
     /* border: 1px solid green; */
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
@@ -694,6 +751,7 @@ address {
     top: 25%;
     left: 20px;
 }
+
 .container3 .wrapper_holder #sld2 {
     background-image: url(../asset/img/menu2.jpg);
     background-repeat: no-repeat;
@@ -701,6 +759,7 @@ address {
     top: 25%;
     left: 20px;
 }
+
 .container3 .wrapper_holder #sld3 {
     background-image: url(../asset/img/bf1.jpg);
     background-repeat: no-repeat;
@@ -708,6 +767,7 @@ address {
     top: 25%;
     left: 20px;
 }
+
 .container3 .wrapper_holder #sld4 {
     background-image: url(../asset/img/menu3.jpg);
     background-repeat: no-repeat;
@@ -715,29 +775,62 @@ address {
     top: 25%;
     left: 20px;
 }
+
 .container3 .wrapper_holder #sld5 {
-    background-image: url(../asset/img/menu3.jpg);
+    background-image: url(../asset/img/menu5.jpg);
     background-repeat: no-repeat;
     position: relative;
     top: 25%;
     left: 20px;
 }
+
 .container3 .wrapper_holder #sld6 {
-    background-image: url(../asset/img/menu3.jpg);
+    background-image: url(../asset/img/menu6.jpg);
     background-repeat: no-repeat;
     position: relative;
     top: 25%;
     left: 20px;
 }
 .container3 .wrapper_holder #sld7 {
-    background-image: url(../asset/img/menu3.jpg);
+    background-image: url(../asset/img/menu7.jpg);
     background-repeat: no-repeat;
     position: relative;
     top: 25%;
     left: 20px;
 }
 .container3 .wrapper_holder #sld8 {
-    background-image: url(../asset/img/menu3.jpg);
+    background-image: url(../asset/img/menu8.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 20px;
+}
+.container3 .wrapper_holder #sld9 {
+    background-image: url(../asset/img/menu9.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 20px;
+}
+
+.container3 .wrapper_holder #sld10 {
+    background-image: url(../asset/img/menu10.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 20px;
+}
+
+.container3 .wrapper_holder #sld11{
+    background-image: url(../asset/img/menu11.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 20px;
+}
+
+.container3 .wrapper_holder #sld12{
+    background-image: url(../asset/img/menu12.jpg);
     background-repeat: no-repeat;
     position: relative;
     top: 25%;
